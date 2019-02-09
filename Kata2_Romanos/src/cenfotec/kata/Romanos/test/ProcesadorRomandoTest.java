@@ -30,5 +30,10 @@ public class ProcesadorRomandoTest {
 		ProcesadorRomano PR = new ProcesadorRomano();
 		assertEquals(21, PR.logicaRomanosaNumeros("XXI"));
 	}
-	
+
+	@Test
+	public void pruebaCinco() {
+		ProcesadorRomano PR = new ProcesadorRomano();
+		assertEquals(101, PR.logicaRomanosaNumeros("CI"));
+	}
 }
