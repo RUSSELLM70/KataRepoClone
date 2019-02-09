@@ -25,4 +25,10 @@ public class ProcesadorRomandoTest {
 		ProcesadorRomano PR = new ProcesadorRomano();
 		assertEquals(8, PR.logicaRomanosaNumeros("VIII"));
 	}
+	@Test
+	public void pruebaCuatro() {
+		ProcesadorRomano PR = new ProcesadorRomano();
+		assertEquals(21, PR.logicaRomanosaNumeros("XXI"));
+	}
+	
 }
