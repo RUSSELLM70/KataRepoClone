@@ -14,35 +14,5 @@ public class ProcesadorRomandoTest {
 		assertEquals(60, PR.logicaRomanosaNumeros("LX"));
 	}
 	
-	@Test
-	public void pruebaDos() {
-		ProcesadorRomano PR = new ProcesadorRomano();
-		assertEquals(16, PR.logicaRomanosaNumeros("XVI"));
-	}
 	
-	@Test
-	public void pruebaTres() {
-		ProcesadorRomano PR = new ProcesadorRomano();
-		assertEquals(8, PR.logicaRomanosaNumeros("VIII"));
-	}
-	
-	@Test
-	public void pruebaCuatro() {
-		ProcesadorRomano PR = new ProcesadorRomano();
-		assertEquals(21, PR.logicaRomanosaNumeros("XXI"));
-	}
-	
-	@Test
-	public void pruebaCinco() {
-		ProcesadorRomano PR = new ProcesadorRomano();
-		assertEquals(101, PR.logicaRomanosaNumeros("CI"));
-	}
-
-	@Test
-	public void pruebaSeis() {
-		ProcesadorRomano PR = new ProcesadorRomano();
-		assertEquals(161, PR.logicaRomanosaNumeros("CLXI"));
-	}
-
-
 }
